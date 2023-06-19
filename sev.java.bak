@@ -1,0 +1,19 @@
+class sev
+{
+	public int count()
+	{
+		{return cn}
+	}
+	void book(String name,float price,String auth)
+	{
+		System.out.println("Book Name= "+name+ "  Book Price=Rs "+price+"Author: "+auth+"\n");
+	
+	}
+	public static void main(String[] args) 
+	{
+		sev s=new sev();
+		s.book("Wings of Fire",2100,"Dr.APJ Abdul Kalam");
+		System.out.println("Book count"+s.count());
+	}
+}
+

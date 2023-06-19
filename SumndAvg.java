@@ -1,0 +1,26 @@
+import java.util.*;  
+public class  SumndAvg 
+{
+     
+   public static void main(String[] args)  
+    {  
+      int n, count = 1;   
+      float  xF, averageF, sumF = 0;   
+      Scanner sc = new Scanner(System.in);     
+      System.out.println("Enter the value of n");  
+      n = sc.nextInt();
+     
+      while (count <= n)   
+             {   
+                  System.out.println("Enter the "+count+" number");  
+                  xF = sc.nextFloat();  
+                  sumF += xF;   
+                  ++count;   
+             } 
+              System.out.println("The Sum = "+sumF);      
+                  averageF = sumF/n;   
+        System.out.println("The Average = "+averageF);  
+        
+    }  
+    
+}  

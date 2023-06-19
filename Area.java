@@ -1,0 +1,26 @@
+class Rectangle
+{
+	int length;
+	int breadth;
+	void addRectangle(int le,int bre)
+	{
+		length=le;
+		breadth=bre;
+	}
+	void display()
+	{
+		System.out.println("Length of Rectangle: "+length);
+		System.out.println("Breadth of Rectangle: "+breadth);
+		System.out.println("Area of Rectangle: "+length*breadth);
+	}
+}
+public class Area
+{
+	public static void main(String[] args)
+	{
+		Rectangle r1=new Rectangle();
+		r1.addRectangle(24,78);
+		r1.display();
+	}
+}
+	

@@ -1,0 +1,9 @@
+class third 
+{	
+	int a=5;
+	int b=6;
+	public static void main(String[] args) 
+	{	third s = new third();
+		System.out.println("Addition of "+s.a+" and "+s.b+" is "+(s.a+s.b));
+	}
+}
